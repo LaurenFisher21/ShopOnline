@@ -1,0 +1,34 @@
+﻿@page "/"
+@inject HttpClient HttpClient
+@inject NavigationManager NavigationManager
+@layout MainLayout
+
+<div>
+    <ul class="cake-images">
+    @if (caketypes != null)
+    {
+        @foreach (var caketype in caketypes)
+        {
+            <li style="background-image: url('@caketype.Image')"></li>
+            <div>
+                <label>@caketype.CakeName</label>
+                <br>
+                <label>@caketype.Description</label>
+                <br>
+                <label>R@(caketype.Price)</label>
+            </div>
+        }
+    }
+    </ul>
+</div>
+
+@code
+{
+    List<CakeTypes> caketypes = new List<CakeTypes>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        caketypes = await HttpClient.GetFromJsonAsync<List<CakeTypes>>(NavigationManager.BaseUri + "caketypes");
+    }
+}
+
