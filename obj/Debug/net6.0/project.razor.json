@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 913560431,
+        "Kind": "Components.Component",
+        "Name": "ShopOnline.Pages.OrderPage",
+        "AssemblyName": "ShopOnline",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OrderPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShopOnline.Pages.OrderPage"
+        }
+      },
+      {
+        "HashCode": 167945592,
+        "Kind": "Components.Component",
+        "Name": "ShopOnline.Pages.OrderPage",
+        "AssemblyName": "ShopOnline",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShopOnline.Pages.OrderPage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShopOnline.Pages.OrderPage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 470383290,
         "Kind": "Components.Component",
         "Name": "ShopOnline.Pages.Index",
@@ -41,6 +74,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ShopOnline.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 790009955,
+        "Kind": "Components.Component",
+        "Name": "ShopOnline.App",
+        "AssemblyName": "ShopOnline",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShopOnline.App"
+        }
+      },
+      {
+        "HashCode": 88327069,
+        "Kind": "Components.Component",
+        "Name": "ShopOnline.App",
+        "AssemblyName": "ShopOnline",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ShopOnline.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ShopOnline.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -137,39 +203,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "ShopOnline.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 790009955,
-        "Kind": "Components.Component",
-        "Name": "ShopOnline.App",
-        "AssemblyName": "ShopOnline",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShopOnline.App"
-        }
-      },
-      {
-        "HashCode": 88327069,
-        "Kind": "Components.Component",
-        "Name": "ShopOnline.App",
-        "AssemblyName": "ShopOnline",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ShopOnline.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "ShopOnline.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16459,6 +16492,11 @@
   },
   "RootNamespace": "ShopOnline",
   "Documents": [
+    {
+      "FilePath": "c:\\Blazor\\ShopOnline\\Pages\\OrderPage.razor",
+      "TargetPath": "Pages\\OrderPage.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "c:\\Blazor\\ShopOnline\\_Imports.razor",
       "TargetPath": "_Imports.razor",

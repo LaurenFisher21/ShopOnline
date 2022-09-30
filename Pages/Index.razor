@@ -9,7 +9,8 @@
     {
         @foreach (var caketype in caketypes)
         {
-            <li style="background-image: url('@caketype.Image')"></li>
+            @* Gonna make the specific cake pop up in the order page *@
+            <li @onclick="@(() => NavigationManager.NavigateTo("/orderpage"))" style="background-image: url('@caketype.Image')"></li>
             <div>
                 <label>@caketype.CakeName</label>
                 <br>

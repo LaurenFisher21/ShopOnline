@@ -38,7 +38,7 @@ public static class SeedData
             {
                 CakeName = "Strawberry Cake",
                 Price = 49.99m,
-                Description = "Just the right ratio between strawberry and cream.",
+                Description = "Just the right ratio of strawberry and cream.",
                 Image = "img/cakes/strawberryCake.jpg",
             },
             new CakeTypes()
